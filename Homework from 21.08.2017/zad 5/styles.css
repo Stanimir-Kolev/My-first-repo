@@ -1,0 +1,30 @@
+.wrapper {
+    border: 1px solid skyblue;
+}
+
+header {
+    background-color: skyblue;
+}
+
+header>span {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+main>h3 {
+    margin-left: 10px;
+}
+
+.box {
+    border: 1px solid green;
+    margin: 10px;
+}
+
+.box>p {
+    background-color: green;
+}
+
+.box a {
+    text-decoration: none;
+}

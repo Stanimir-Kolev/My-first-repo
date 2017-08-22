@@ -1,0 +1,111 @@
+.wrapper {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid rgb(52, 101, 164);
+    padding: 2% 7%;
+}
+
+header {
+    background-color: rgb(155, 102, 0);
+}
+
+header>h4 {
+    font-weight: bold;
+    margin: 0;
+    padding: 15px;
+}
+
+header>span {
+    display: block;
+    padding: 10px 0 40px 30px;
+    font-size: 12px;
+}
+
+header>h4,
+span {
+    color: #fff;
+}
+
+main {
+    box-sizing: border-box;
+    width: 100%;
+    display: inline-block;
+}
+
+.aside-left {
+    width: 20%;
+    display: inline-block;
+    background-color: rgb(88, 32, 31);
+    float: left;
+    height: 410px;
+}
+
+.aside-left>div {
+    display: inline-block;
+    width: 85%;
+    background-color: rgb(100, 51, 47);
+}
+
+.aside-left>div>ul>li {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.aside-left>div>h4 {
+    margin: 0px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.aside-left>div>h4,
+li {
+    color: #fff;
+}
+
+.content {
+    width: 60%;
+    display: inline-block;
+    float: left;
+    background-color: rgb(255, 255, 205);
+    height: 410px;
+}
+
+.content>h4 {
+    margin-top: 15px;
+    padding-left: 15px;
+}
+
+.content p {
+    font-size: 12px;
+    margin: 5px 15px 25px 35px;
+    font-weight: bold;
+}
+
+.aside-right {
+    width: 20%;
+    display: inline-block;
+    background-color: rgb(135, 135, 75);
+    height: 410px;
+}
+
+.aside-right>h4 {
+    background-color: rgb(153, 151, 102);
+    text-align: right;
+    padding: 10px 20px 0 40px;
+    margin: 0;
+}
+
+footer {
+    background-color: rgb(101, 101, 101);
+    /*position: relative;
+    right: 72px;*/
+}
+
+footer>span {
+    font-size: 10px;
+    display: block;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}

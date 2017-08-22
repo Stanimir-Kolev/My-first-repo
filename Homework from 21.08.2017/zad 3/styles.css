@@ -1,0 +1,42 @@
+.wrapper {
+    border: 2px solid darkblue;
+    height: 500px;
+    padding: 2px 15px;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+}
+
+.aside-left {
+    width: 19.3%;
+    display: inline-block;
+    background-color: lightslategray;
+    height: 100px;
+    float: left;
+}
+
+.aside-right {
+    width: 19.3%;
+    display: inline-block;
+    background-color: red;
+    height: 100px;
+}
+
+.content {
+    width: 57%;
+    background-color: green;
+    height: 100px;
+    display: inline-block;
+    margin: 0 2%;
+}
+
+main {
+    margin: 5px 0;
+    height: 100px;
+}
+
+footer {
+    background-color: blue;
+}

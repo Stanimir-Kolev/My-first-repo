@@ -1,0 +1,36 @@
+.wrapper {
+    border: 2px solid darkblue;
+    height: 500px;
+}
+
+.box {
+    width: 95%;
+    display: block;
+    margin: 3px auto;
+}
+
+header {
+    background-color: darkblue;
+}
+
+aside {
+    width: 29%;
+    display: inline-block;
+    background-color: lightslategray;
+    height: 100px;
+}
+
+.content {
+    width: 69%;
+    float: right;
+    background-color: green;
+    height: 100px;
+}
+
+main {
+    margin: 5px 0;
+}
+
+footer {
+    background-color: blue;
+}
